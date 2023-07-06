@@ -1,0 +1,63 @@
+
+/************* TAG SELECTORS *************/
+header{
+  margin-top:0px;
+}
+footer{
+  margin-top:0px;
+}
+body{
+  
+  margin:0px;
+  border: 0px;
+  padding:0px;
+
+  background-color: #E6E4DD;
+}
+
+
+p{
+  color: grey;
+}
+/************* CLASS SELECTORS *************/
+.top-container{
+  background-color: #A3B18A;
+  width: 100%;
+  height: 850px;
+  margin-top:0px;
+  margin-left:0%;
+  padding: 0px;
+  border:0px;
+}
+.middle-container{
+  
+  padding: 20px;
+  
+  margin-left:0%;
+  width: 100%;
+  height: 850px;
+  background-color: #E6E4DD;
+}
+.middle-container1{
+  padding: 20px;
+  margin-left:0%;
+  width: 100%;
+  height: 850px;
+  background-color: #588157;
+}
+.middle-container2{
+  padding: 20px;
+  margin-left:0%;
+  width: 100%;
+  height: 850px;
+  background-color: #3A5A40;
+}
+.bottom-container{
+  padding: 20px;
+  margin-left:0%;
+  width: 100%;
+  height: 850px;
+  background-color: #344E41;
+}
+
+/****** ID SELECTORS***/
