@@ -1,104 +1,173 @@
 /****** DESKTOP VIEW***/
+/*@media only screen and (min-width: 1024px) {*/
+  @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-
-  /************* TAG SELECTORS *************/
-  @media only screen and (min-width: 1024px) {
-header{
-  margin:0px;
-  
-}
-footer{
-  margin-top:0px;
-  
-}
+  *{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+    width: 100%;
+    height:100%;
+    color: #f7f7f7;
+  }
+/*
 body{
   
   margin:0px;
   border: 0px;
   padding:0px;
 
-  background-color: #E6E4DD;
+  background-color: #040814;
 }
 img {
   display: block;
   margin: 0px;
   width: 100%;
-  height: 500px;
+  height: 100%;
+  
+}*/
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height:100%;
+  width:100%;
+}
+
+section{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  scroll-snap-align: start;
+  scroll-behavior: smooth;
+  
   
 }
 
-p{
-  color: grey;
-}
-/************* CLASS SELECTORS *************/
-.top-container{
-  background-color: #A3B18A;
-  width: 100%;
-  height: 850px;
-  margin:0px;
+.center{
+  position:absolute;
+  text-align: center;
+  top:50%;
   
-  border:0px;
 }
-.middle-container{
+.one{
+ position: relative;
+  background-color: #040814;
+}
+
+.two{
+  background-color: #040814;
   
+}
+.three{
+  background-color: #1b1e3f;
+  
+}
+.four{
+  background-color: #2d2848;
  
+}
+.five{
+  background-color: #5a3554;
   
-  margin-left:0%;
-  width: 100%;
-  height: 850px;
-  background-color: #E6E4DD;
 }
-.middle-container1{
-  
-  margin-left:0%;
-  width: 100%;
-  height: 850px;
-  background-color: #588157;
+.six{
+  background-color: #763c59;
+ 
 }
-.middle-container2{
-  
-  margin-left:0%;
-  width: 100%;
-  height: 850px;
-  background-color: #3A5A40;
-}
-.bottom-container{
-  
-  margin-left:0%;
-  width: 100%;
-  height: 850px;
-  background-color: #344E41;
-}
-
-}
+/*}*/
   
 
-/****** TABLETS***/
-/*@media only screen and (min-width: 768px) and (max-width: 1023px) {
-
-  .top-container {
-  
-  margin: 0px;
-  
+/****** TABLETS***
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  header{
+    margin:0px;
+    max-width:0px;
+    
   }
-  img{
-    max-width:100%;
+  footer{
+    margin-top:0px;
+    
   }
+  body{
+    
+    margin:0px;
+    border: 0px;
+    padding:0px;
   
+    background-color: #040814;
+  }
+  img {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .top-container{
+    position: relative;
+    text-align: center;
+    color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    
+    border:0px;
+    
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   }
 
 
   /****** SMARTPHONES***
 @media only screen and (max-width: 767px) {
 
-  .top-container {
-  
-  margin: 0 16px;
-  
+  header{
+    margin:0px;
+    max-width:0px;
+   
   }
-  img{
-    max-width:100%;
+  footer{
+    margin-top:0px;
+    
   }
-  
+  body{
+    
+    margin:0px;
+    border: 0px;
+    padding:0px;
+    background-color: #040814;
+  }
+  img {
+    display: block;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  .top-container{
+    position: relative;
+    text-align: center;
+    color: #f7f7f7;
+    width: 100%;
+    height: 100%;
+    margin:0px;
+    
+    border:0px;
+    
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
   }
   */
