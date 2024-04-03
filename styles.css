@@ -27,6 +27,11 @@ img {
   height: 100%;
   
 }*/
+#selfie{
+width: 30%;
+height:45%;
+margin-left: 20%;
+}
 .container{
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
@@ -39,7 +44,7 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
+  
   scroll-snap-align: start;
   scroll-behavior: smooth;
   
@@ -55,11 +60,24 @@ section{
 .one{
  position: relative;
   background-color: #040814;
+  text-align: center;
 }
 
 .two{
+  display: flex;
   background-color: #040814;
+  padding-top: 5%;
+  padding-left:10%;
+  padding-right:10%;
   
+}
+#download{
+  background-color:#763c59;
+  height:10%;
+  width: 10%;
+  border-radius: 5px;
+  margin-top:10%; 
+
 }
 .three{
   background-color: #1b1e3f;
